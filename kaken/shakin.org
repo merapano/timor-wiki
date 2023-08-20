@@ -1,0 +1,31 @@
+# -*- coding: euc-jp; mode: org -*-
+#+TITLE: 
+#+AUTHOR: Satoshi Nakagawa
+#+EMAIL:  satoshi@hus.osaka-u.ac.jp
+#+STYLE: <link rel="stylesheet" type="text/css" href="hatena.css" />
+#+LANGUAGE: jp
+#+OPTIONS:  H:2 num:t toc:t \n:nil @:t ::t 
+#+OPTIONS: |:t ^:t *:t TeX:nil LaTeX:t
+#+LaTeX_CLASS: jarticle
+#+LaTeX_CLASS_OPTIONS: [11pt,a4j,twocolumn]
+#+LATEX_HEADER: \usepackage{hyperref,natbib}
+#+LATEX_HEADER: \usepackage{tabulary}
+#+LATEX_HEADER: \usepackage{/home/satoshi/lib/tex-macros/mymacros}
+
+
+車は余裕をもってランドクルーザーを２台借りたいと思います。
+17日から21日までは1台、22日から29日までには2台、29日以降は１台で大丈夫かと思います。
+１台は福武が運転し、もう一台は私が働いていたNGOの元ドライバーに運転してもらおうと思います。
+まだ連絡はとっていませんが、私が一足先に帰国後も、みなさんのドライバーになってもらいたいと考えています。
+信頼できる人物なのでご安心ください。
+できれば彼に科研費から謝金をはらっていただければありがたいです。
+いろいろ込みで、一日あたり10ドルくらいで良いかと思います。
+
+レンタカーは車種によりますが、余裕をみて150ドル/1日×14日×2台=4200ドルと見積もっています。
+悪路を走ることも考え、大型のランドクルーザーをできれば借りたいです。
+このレンタカー代は最高値ですので、いまから探して予約しておけば、安く借りられるかもしれません。
+
+#+BEGIN_LATEX
+\bibliographystyle{/home/satoshi/lib/tex-macros/jecon}
+\bibliography{string,phil,jbib,anthrop,neighbor,satoshi,ntt,misc}
+#+END_LATEX
