@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Manual for Intermediate</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<link rel="stylesheet" href="../../../style.css" type="text/css" />
+
+<link rel="stylesheet" href="../../../local.css" type="text/css" />
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+<div class="page">
+
+<div class="pageheader">
+<div class="header">
+<span>
+<span class="parentlinks">
+
+<a href="../../../">wiki</a>/ 
+
+<a href="../../../">kaken</a>/ 
+
+<a href="../../../">sandbox</a>/ 
+
+</span>
+<span class="title">
+Manual for Intermediate
+
+</span>
+</span>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+<div id="pagebody">
+
+<div id="content" role="main">
+
+
+
+<h1>中級者向けマニュアル</h1>
+
+<p>[[!toc  levels=2]]</p>
+
+<h2>序</h2>
+
+<p>さて、中級者編です。
+ここでは Markdown 記法を学びます。</p>
+
+<p>このサイトの各ページ
+（読む側からすると「ページ」で、
+書く側からすると「ファイル」と呼ぶのでしょうが
+互換的に使っていきます）は、
+markdown と呼ばれる記法で書かれています。</p>
+
+<h2>第一歩</h2>
+
+<p>markdown の記法はとっても簡単です。
+かつて <sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> 多くの人が
+メールの範囲内で修飾をするのに
+使っていた記法を
+そのまま採用しています。</p>
+
+<p>  （なんと！）M\$Word で書いたりする人の
+   多くなった今はすたれてきているのかもしれません。
+   わたしは、プレーンテキスト</p>
+
+<h3>修飾</h3>
+
+<p>斜体にしたい部分を * と * で囲みます。
+*Timor Leste* と書くと <em>Timor Leste</em> と
+表示されます。
+その部分を下線（ _ と _ ）で
+囲んでも同じ結果を得ることができます。
+_Journal of Royal Anthropological Institute_ と
+書けば、
+<em>Journal of Royal Anthropological Institute</em> と
+表示されます。</p>
+
+<p>強調したい時には * を二つ使ってください。
+**This is important** は
+<strong>This is important</strong> と表示されます。</p>
+
+<h3>リスト</h3>
+
+<p>リストの各項目を * あるいは - あるいは
++ で始めてください。</p>
+
+<pre><code>- First Item
+- Second Item
+- Third Item 
+</code></pre>
+
+<p>と書けば、</p>
+
+<ul>
+<li>First Item</li>
+<li>Second Item</li>
+<li>Third Item</li>
+</ul>
+
+
+<p>と表示されます。
+ネストも可能です。
+番号をつけたい場合は <code>1.</code> <code>2.</code> という
+番号で始めてください。<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup></p>
+
+<h3>引用、そのまま引用</h3>
+
+<p>引用はメールの引用と同じです。</p>
+
+<pre><code>&gt; 先日はたいへんお世話になりました。
+&gt; 今後ともによろしく
+&gt; お願いします。
+</code></pre>
+
+<p>は、次のように表示されます。</p>
+
+<blockquote><p>先日はたいへんお世話になりました。
+今後ともによろしく
+お願いします。</p></blockquote>
+
+<p>もし、改行も含めて「そのまま」
+引用したい場合は、
+各行の前に四つのスペースあるいは
+一つのタブを置いてください。</p>
+
+<h3>章、節</h3>
+
+<p><code>HTML</code> の用語「ヘッダレベル」を使って
+説明します。
+それぞれの章・節のタイトルの前に
+# の記号を決められた数だけ置けば、
+章・節が表現できます。</p>
+
+<pre><code># 章のタイトル
+## 節のタイトル1
+### 小節のタイトル1
+### 小節のタイトル2
+## 節のタイトル2
+### 小節のタイトル3
+</code></pre>
+
+<p>「全体のタイトル」という考え方はありません。
+ですから、
+「章のタイトル」を「全体のタイトル」と
+考えたほうがいいかもしれません。
+（そして「章」は「節」へ、
+「節」は「小節」へと読み替えてください。）</p>
+
+<p>なお</p>
+
+<pre><code> # なんやらかんやら
+
+ ## なんとかかんとか
+</code></pre>
+
+<p>を</p>
+
+<pre><code> なんやらかんやら
+ ================
+
+ なんとかかんとか
+ ----------------
+</code></pre>
+
+<p>と書くこともできます。
+まったく互換的ですので、
+好きなほうを使ってください。</p>
+
+<h3>練習</h3>
+
+<p>さて、自分の砂場へと赴いてください。</p>
+
+<ul>
+<li><a href="../fukutake/">fukutake</a> 福武さん用</li>
+<li><a href="../ueda/">ueda</a>  上田さん用</li>
+<li><a href="../morita/">morita</a>  森田さん用</li>
+<li><a href="../okuda/">okuda</a>  奥田さん用</li>
+</ul>
+
+
+<p>そして <code>Edit</code> を押します。
+あとは楽しんでください。</p>
+
+<p>終わったらまた戻ってきてくださいね。</p>
+
+<h2>うまくいかない場合</h2>
+
+<p>砂場で実験をして、
+「どうもうまくいかない」という場合は、
+スペースを見てください。</p>
+
+<ul>
+<li>リストの場合、
+
+<ul>
+<li><code>-</code> と 本文の間にスペース</li>
+<li><code>1.</code> と本文の間にスペースを入れます</li>
+</ul>
+</li>
+<li>文字修飾の場合、
+
+<ul>
+<li><code>*</code>文字<code>*</code> の前後にスペース</li>
+<li><code>_</code>文字<code>_</code> の前後にスペースを入れます</li>
+</ul>
+</li>
+<li>章・節の場合、
+
+<ul>
+<li><code>#</code> とタイトルの間にスペースを入れます</li>
+</ul>
+</li>
+<li>引用の場合
+
+<ul>
+<li><code>&gt;</code> と本文の間にスペースを入れます</li>
+</ul>
+</li>
+</ul>
+
+
+<p>これらのスペースを入れるのを忘れてませんか？
+あるいは、全角のスペースをいれていませんか？
+そうならば、
+全角のスペースを半角のスペースに修正してください。</p>
+
+<p>もう一度砂場へ！</p>
+
+<ul>
+<li><a href="../fukutake/">fukutake</a> 福武さん用</li>
+<li><a href="../ueda/">ueda</a>  上田さん用</li>
+<li><a href="../morita/">morita</a>  森田さん用</li>
+<li><a href="../okuda/">okuda</a>  奥田さん用</li>
+</ul>
+
+
+<h2>拡張</h2>
+
+<p>いくつか特別な記法があります。</p>
+
+<p>   [[!toc ]]</p>
+
+<p>と書けば TOC、すなわち Table of Contents （目次）が
+その場所に書かれます。</p>
+
+<p>脚注は [^1] という記号
+（<code>1</code> の部分は何でもけっこうです。
+ただし、全て異なる数字を入れてください）
+を脚注をつけたい所に書きます。</p>
+
+<p>つづいて、脚注をつけた段落の最後まで行き、
+１行あけて次のように書きます：</p>
+
+<pre><code>\[^1]: これが脚注です。
+   2行目以降は
+   インデントをします
+</code></pre>
+
+<p>これで脚注のできあがりです。</p>
+
+<h2>約束ごと</h2>
+
+<p>さて、いままで「砂場」世界だけで
+仕事をしてきましたが、
+これから「住所録」（<em>Lonely Planet</em> みたいなの）と
+「東ティモール百科事典」の世界に
+出掛けて、
+それらの世界の建設にご尽力を
+お願いします。</p>
+
+<p>いくつかの約束ごとがありますので、
+２つの世界に書き込む前に
+かならず読んでください。</p>
+
+<p>これです：<a href="../conventions/">conventions</a></p>
+
+<p>それでは</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+メールを HTML で書いたり、<a href="#fnref:1" rev="footnote">&#8617;</a></li>
+<li id="fn:2">
+いい加減に番号をふっても、
+（たとえば全部を <code>1.</code> としても）
+表示されるときは <code>1.</code> からの順番に
+なっています。<a href="#fnref:2" rev="footnote">&#8617;</a></li>
+</ol>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+</div>
+
+<div id="footer" class="pagefooter" role="contentinfo">
+
+<div id="pageinfo">
+
+
+
+
+
+
+<div id="backlinks">
+Links:
+
+<a href="../Manual_for_Beginner/">Manual for Beginner</a>
+
+<a href="../index/">index</a>
+
+
+</div>
+
+
+
+
+
+
+<div class="pagedate">
+Last edited <span class="date">Sun Apr 16 22:34:11 2023</span>
+<!-- Created <span class="date">Sun Apr 16 22:34:11 2023</span> -->
+</div>
+
+</div>
+
+
+<!-- from wiki -->
+</div>
+
+</div>
+
+</body>
+</html>
