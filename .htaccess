@@ -1,0 +1,7 @@
+AuthUserFile /etc/apache2/.htpasswd-timor
+AuthName "Please enter username and Password"
+AuthType Basic
+require valid-user
+<Limit GET POST>
+require valid-user
+</Limit>
