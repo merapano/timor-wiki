@@ -1,3 +1,4 @@
 !.ikiwiki/
 !ikiwiki/
 !*.html
+!Makefile
